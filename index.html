@@ -1,0 +1,106 @@
+<!doctype htmml>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>from</title>
+	<link rel="stylesheet" href="css/form1.css">
+	<style>
+		h1{
+			font-style: italic;
+			color:green ;
+		}
+		p{
+			font-size:20px ;
+			color:skyblue ;
+
+			
+		}
+		label{
+			font-size:20px ;
+			font-style: italic;
+			color:red ;
+		}
+		button{
+			font-size: 20px;
+			font-style: italic;
+			color:blue ;
+		}
+	</style>
+</head>
+<body>
+	<h1>What's your name?</h1>
+	<p>Enter the name you see in real life.</p>
+	<div class="wrapper"></div>
+	<form action=" #" method="get">
+		<label for="first-name">First name:</label><br><br>
+		<input type="text" name="first-name" id="first-name" class="first-name"><br><br>
+		<label for="last-name">Last name:</label><br><br>
+		<input type="text" name="last-name" id="last-name" class="last-name"><br><br>
+
+		<button type="next">Next</button><br>
+		<h1>Enter your mobile number</h1>
+		<p>Enter your mobile number where you can be reached.You can hide this from your profile later.</p>
+		<label for="mobile-number">Mobile number:</label><br><br>
+		<input type="number" name="mobile-number" id="mobile-number" class="mobile-number"><br><br>
+		<button  type="next">Next</button><br>
+		<h1>What's your birthday?</h1>
+		<p>Choose your date of birth.You can always make this private later.</p>
+		<label for="birthday">Birthday:</label><br><br>
+		<input type="number" name="date-of-birth" id="date-of-birth" class="date-of-birth"><br><br>
+		<h1>What's your gender</h1>
+		<p>You can change who sees your gender on your profile later</p>
+		<lable for="gender">Gender:</lable><br>
+		<input type="radio" value="Male" name="gender" id="gender" class="Gender"><span>Male</span><br>
+		<input type="radio" value="Female" name="gender" id="gender" class="Gender"><span>Female</span><br>
+		<input type="radio" value="Custom" name="gender" id="gender" class="Gender"><span>Custom</span><p>select Custome
+		 to choose another gender,or if you'd rather not say.
+		 <h1>Create a password</h1>
+		 <p>Create a password with at least 6 characters.It should be something others couldn't guess.</p>
+		 <label for="password">New password:</label><br><br>
+		 <input type="password" name="password" id="password"class="password" >
+		 <h1>Finishing signing up</h1>
+		 <p>By tapping Sign Up ,you agree to our Terms,Privacy Policy and Cookies Policy.You may receive SMS notifications from us and can opt out any time.</p>
+		 <button type="sign-up">Sign Up</button><br><br>
+		 <label for="educational-qualifaction">Educational Qualifaction:</label><br><br>
+		 <input type="checkbox" value="ssc" name="ssc"><span>SSC</span><br>
+		 <input type="checkbox" value="hsc" name="ssc"><span>HSC</span><br>
+		<label for="message">Your Message:</label><br>
+		<textarea id="message" cols="75" rows="10" placeholder="Type your message" name="message"class="message"></textarea>
+		<br><br>
+		<button type="submit" value="click">Click Me</button>
+		<button type="reset" value="click">Reset Me</button>
+
+		 
+		</div>
+	</from>
+	<table>
+		<tr>
+			<th>Name Of School/College/University</th><br>
+			<th>Educational Qualifaction</th><br>
+			<th>Result</th><br>
+			<th>Exam Board</th><br>
+		</tr>
+		<tr>
+			<td>Goalanda Govt.School</td>
+			<td>SSC</td>
+			<td>5.00</td>
+			<td>Dhaka Board</td>
+		</tr>
+			<td>Goalanda Govt.College</td>
+			<td>HSC</td>
+			<td>3.92</td>
+			<td>Dhaka Board</td>
+		</tr>
+			<td> Govt.Rajendro College</td>
+			<td>Honours (Mathematics)</td>
+			<td>3.20</td>
+			<td>Dhaka Board</td>
+		</tr>
+	</table>
+
+
+
+
+</body>
+</html>
