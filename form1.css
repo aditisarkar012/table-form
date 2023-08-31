@@ -42,13 +42,13 @@ color="red"
 table{
 	
 	width:50% ;
-	border: 5px dashed blue;
+	border: 5px dashed darkblue;
 }
 
 th,td{
 
 	font-size:20px ;
 	text-align:center ;
-	border: 5px dashed blue;
+	border: 5px dashed darkblue;
 	background: blue;
 }
