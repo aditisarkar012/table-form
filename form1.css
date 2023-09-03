@@ -43,6 +43,7 @@ table{
 	
 	width:50% ;
 	border: 5px dashed darkblue;
+	background: blue;
 }
 
 th,td{
